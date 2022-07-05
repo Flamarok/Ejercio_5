@@ -34,13 +34,14 @@ export function mostrarError(mensaje) {
   inputBusqueda.style = 'background-color: red;'
   h4.textContent = "-";
   img.src = "./assets/pagina-error-404-distorsion_23-2148105404.jpg"
+  img.style = 'width: 350px; height: 240px;'
   parrafo.textContent = `-`
   setTimeout(() => {
     inputBusqueda.style = 'background-color: withe;'
     h2.innerText = 'Realiza tu busqueda';
     img.src = './assets/52076787-ilustración-de-una-mascota-cocinero-italiano.jpg';
-    h4.innerText = '';
-    parrafo.innerText = '';
+    h4.innerText = '-';
+    parrafo.innerText = '-';
   }, 4500)
   
 }
